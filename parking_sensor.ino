@@ -155,7 +155,7 @@ void loop() {
   // OLED output — same info as serial
   updateOLED(distance, delta, beepInterval);
 
-  // Buzzer
+  
   if (beepInterval == 0) {
     digitalWrite(BUZZER_PIN, LOW);
     buzzerOn = false;
