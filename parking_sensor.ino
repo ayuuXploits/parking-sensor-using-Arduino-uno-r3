@@ -60,7 +60,7 @@ void updateOLED(long distance, long delta, int beepInterval) {
   display.clearDisplay();
   display.setTextColor(SSD1306_WHITE);
 
-  // --- Distance big text ---
+  // -- Distance big text ---
   display.setTextSize(3);
   display.setCursor(0, 0);
   if (distance >= 400) display.print("---");
